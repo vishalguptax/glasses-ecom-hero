@@ -1,0 +1,89 @@
+nav {
+  display: flex;
+  padding: 20px 15%;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLeft,
+.navRight {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.navLogo {
+  font-family: var(--logoFont);
+  font-size: 34px;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+.navLogo:hover{
+  color: var(--secondary);
+}
+
+.navMenuIcon,
+.shoppingIcons {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.userImg {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+
+.userImg:hover {
+  filter: contrast(1.2);
+}
+
+.cartIcon {
+  background-color: var(--accent);
+  padding: 8px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+.cartIcon:hover {
+  background-color: var(--secondary);
+}
+
+.whishListIcon {
+  background-color: var(--bg-dark);
+  padding: 8px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+.whishListIcon:hover {
+  background-color: var(--secondary);
+  color: white;
+}
+
+.navSearch {
+  background-color: var(--bg-dark);
+  height: 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  padding: 16px;
+}
+.navSearch > input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 12px;
+  width: 240px;
+}
+
+.navSearch > svg {
+  cursor: pointer;
+}

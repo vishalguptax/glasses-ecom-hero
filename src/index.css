@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+:root {
+  --primary: #e2a92d;
+  --secondary: #943e0e;
+  --accent: #f0be31;
+  --bg-light: #fcf5e8;
+  --bg-dark: #e7e1d1;
+  --text: #252625;
+  --button: #252625;
+  --logoFont: "Monoton", cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+html {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+  background-color: var(--bg-light);
+  color: var(--text);
+}
+
+.btn {
+  background: rgb(226, 169, 45);
+  background: linear-gradient(
+    180deg,
+    rgba(226, 169, 45, 1) 0%,
+    rgba(148, 62, 14, 1) 100%
+  );
+}

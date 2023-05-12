@@ -1,0 +1,61 @@
+.productSection {
+  padding: 40px 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+h4{
+    font-size: 36px;
+    font-weight: 400;
+}
+.cardSection {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card {
+  background-color: var(--bg-dark);
+  padding: 16px;
+  border-radius: 12px;
+  width: 200px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cardHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 100%;
+}
+.cardTitle {
+  font-weight: 600;
+}
+.cardheadRight {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.cardPrice {
+  font-weight: 700;
+}
+.cardButton {
+  padding: 5px;
+  border-radius: 6px;
+  font-size: 24px;
+  color: var(--bg-light);
+  line-height: 12px;
+}
+.cardImg {
+  width: 120px;
+  mix-blend-mode: multiply;
+  max-width: 100%;
+  margin-top: -32px;
+}
+
+.glassTypeText {
+  font-size: 0.7rem;
+  color: #808080;
+}
